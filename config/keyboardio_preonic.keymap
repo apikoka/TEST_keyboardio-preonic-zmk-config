@@ -59,7 +59,7 @@
             tap-ms = <40>;
             bindings =
                 <&rgb_ug RGB_COLOR_HSB(100,128,100)>,
-                &bt BT(1);
+                <&bt BT(1)>;
         };
     };
 
