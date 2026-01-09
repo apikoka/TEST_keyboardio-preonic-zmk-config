@@ -41,7 +41,7 @@
                 <&macro_release &kp LEFT_COMMAND>,
                 <&macro_release &kp LEFT_SHIFT>;
         };
-        sw_bt1{
+        sw_bt1: sw_bt1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
