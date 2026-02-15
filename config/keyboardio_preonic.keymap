@@ -15,7 +15,7 @@
 #define LOWER 1
 #define RAISE 2
 #define FN 3
-// #define MAC 4
+ #define MAC 4
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
@@ -92,8 +92,8 @@
  &kp GRAVE   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp BKSP
  &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp BSLH
  &kp ESC     &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
- &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp PERIOD  &kp SLASH   &mt RSHFT// ENTER
- &kp LCTRL   &LGUI       &kp HYPER   &kp LALT    &mo LOWER   &kp SPACE   &mo RAISE   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
+ &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp PERIOD  &kp SLASH   &mt RSHFT ENTER
+ &kp LCTRL   &kp LGUI       &kp HYPER   &kp LALT    &mo LOWER   &kp SPACE   &mo RAISE   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
 
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;            
@@ -123,7 +123,7 @@
  &trans      &kp F11     &kp F12     &trans      &trans      &trans      &kp BSLH    &trans       &trans       &kp LBKT   &kp RBKT   &kp DEL
  &kp CAPS    &trans      &trans      &trans      &trans      &trans      &kp LEFT    &kp DOWN     &kp UP       &kp RIGHT  &trans     &trans
  &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans       &trans       &trans     &trans     &trans
- &trans      &trans      &kp RALT    &trans      &trans      &trans      &trans      &trans       &trans       &to 0      &to 0
+ &trans      &trans      &kp RALT    &trans      &trans      &trans      &trans      &trans       &trans       &to 0      &to 4
 
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -143,7 +143,7 @@
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
-/*
+
         Mac_layer {
             label = "MAC";
             bindings = <
@@ -153,12 +153,12 @@
  &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp BSLH
  &kp ESC     &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
  &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp PERIOD  &kp SLASH   &mt RSHFT ENTER
- &kp LCTRL   &LALT       &kp HYPER   &kp LGUI    &mo LOWER   &kp SPACE   &mo RAISE   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
+ &kp LCTRL   &kp LALT       &kp HYPER   &kp LGUI    &mo LOWER   &kp SPACE   &mo RAISE   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
 
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;            
         };
-        */
+        
 
     };
 };
