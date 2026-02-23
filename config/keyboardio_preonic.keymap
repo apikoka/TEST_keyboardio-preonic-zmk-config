@@ -95,8 +95,7 @@
  &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp PERIOD  &kp SLASH   &mt RSHFT ENTER
  &kp LCTRL   &kp LGUI       &kp HYPER   &kp LALT    &mo LOWER   &kp SPACE   &mo RAISE   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
 
-            >,
-            <&rgb_ug RGB_COLOR_HSB(210,100,100)>;
+            >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;     
         };
 
@@ -111,8 +110,7 @@
  &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp PERIOD  &kp SLASH   &mt RSHFT ENTER
  &kp LCTRL   &kp LALT       &kp HYPER   &kp LGUI    &mo LOWER   &kp SPACE   &mo RAISE   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
 
-            >,
-            <&rgb_ug RGB_COLOR_HSB(180,80,80)>;
+            >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;            
         };
         
@@ -128,8 +126,7 @@
  &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans     &trans       &trans       &trans
  &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans     &trans       &trans
 
-            >,
-            <&rgb_ug RGB_COLOR_HSB(230,100,100)>;
+            >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
         raise_layer {
@@ -143,8 +140,7 @@
  &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans       &trans       &trans     &trans     &trans
  &trans      &trans      &kp RALT    &trans      &trans      &trans      &trans      &trans       &trans       &to 0      &to 1
 
-            >,
-            <&rgb_ug RGB_COLOR_HSB(260,100,100)>;
+            >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -159,8 +155,7 @@
  &trans       &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans     &trans      &trans      &trans
  &bootloader  &trans      &trans      &trans      &studio_unlock    &trans            &trans      &trans     &trans      &trans      &bt BT_CLR
 
-            >,
-            <&rgb_ug RGB_COLOR_HSB(290,100,100)>;
+            >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
