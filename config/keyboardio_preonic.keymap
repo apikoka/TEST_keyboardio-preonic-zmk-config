@@ -128,7 +128,7 @@
 
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-        };][iu\\]
+        };
         raise_layer {
             label = "Raise";
             bindings = <
