@@ -120,7 +120,7 @@
             bindings = <
                                                                                                                &trans          &trans       &trans
 
- &kp GRAVE   &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans     &kp KP_MINUS &kp KP_EQUAL &kp DEL
+ &kp GRAVE   &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans     &kp MINUS    &kp EQUAL    &kp DEL
  &trans      &trans      &trans      &trans      &trans      &trans      &kp HOME    &kp PG_UP   &kp UP     &kp PG_DN    &kp LBKT     &kp RBKT
  &trans      &trans      &trans      &trans      &trans      &trans      &kp END     &kp LEFT    &kp DOWN   &kp RIGHT    &trans       &trans
  &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans     &trans       &trans       &trans
@@ -128,8 +128,7 @@
 
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-        };
-
+        };][iu\\]
         raise_layer {
             label = "Raise";
             bindings = <
